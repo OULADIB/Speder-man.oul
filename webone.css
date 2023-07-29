@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&family=Source+Code+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&family=Roboto:ital,wght@0,100;1,400&family=Russo+One&family=Source+Code+Pro&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+padding: 0;
+margin: 0;}
+
+a{color: #fdcf02;
+text-decoration: none;}
+
+
+body{background-image: linear-gradient(rgb(85, 74, 74),rgb(85, 130, 226));
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+
+.divone{
+    background-image: 
+    linear-gradient(to right,#25212160 20%,#070718e3),
+    url(Marvels-Spider-Man.jpg);
+    background-position: center;
+width: 90%;
+height: 640px;}
+
+.divone:hover{
+    background-image: 
+    linear-gradient(to right,#25212160 20%,transparent),
+    url(Marvels-Spider-Man.jpg);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo{
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+ul{
+width: 60%;
+list-style: none;
+display: flex;
+justify-content: space-evenly;}
+
+ul a{
+    border-bottom: 2px solid transparent;
+}
+
+ul a:hover{
+    border-bottom-color: #1a1717c0;
+}
+
+
+.divtow{
+    color: white;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+.divtow h2{
+font-size: 100px;
+text-transform:capitalize;}
+
+
+.divtow p{
+    letter-spacing: 2px;
+    width: 695px;
+    padding: 20px 0;
+}
+
+.divtow button{
+    font-size: 24px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.divtow button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+
+/*
+ 
+        Nome :zakarya ouladib
+        email:ouladibzaka@gmail.com
+
+*/
